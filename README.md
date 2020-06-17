@@ -41,11 +41,11 @@ To provide core of logical functionality of the whole system you need to create 
 
 
 ## 4. data consistency
-After whole setup data consistency mechanisms such as triggers are needed to be included into system. Execute files from /consistency. 
+After whole setup data consistency mechanisms such as triggers are needed to be included into system. Execute files from /consistency.  
 **triggers.sql**  
 
 
 ## 5. standalone routines
-In project there are provided various functionalities adjusted to client's needs such as obtaining specified information, adding new games, paying won bets or recalculating odds initially.  
+In project there are provided various functionalities adjusted to client's needs such as obtaining specified information, adding new games, paying won bets or recalculating odds initially.   
 **routines.sql**
 
