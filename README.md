@@ -25,17 +25,17 @@ SQL Developer: [download](https://www.oracle.com/tools/downloads/sqldev-v192-dow
 Oracle 11g: [download](https://www.oracle.com/database/technologies/112010-win64soft.html)
 
 ## 2. schema creation:
-To create all structure of the database you need to execute files stored in /schema folder.
-<nazwy plików>
+To create all structure of the database you need to execute files stored in /schema folder.  
+**schema.sql**
 
-## 3. population:
-To populate database with initial records there is necessity to execute files stored in /population folder.
-<nazwy plików i kolejność>
-
-## 4. package creation
+## 3. package creation
 To provide core of logical functionality of the whole system you need to create packages by executing files in /packages.
 <nazwy plików>
 
-## 5. data consistency
+## 4. data consistency
 After whole setup data consistency mechanisms such as triggers are needed to be included into system. Execute files from /dataConsist
 <nazwy plików>
+
+## 5. population:
+To populate database with initial records there is necessity to execute files stored in /population folder.
+<nazwy plików i kolejność>
