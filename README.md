@@ -21,7 +21,8 @@ Entity relationship diagram:
 
 ## 1. database setup:
 To ensure consistency of database workflow we suggest Oracle 11g database
-<link>
+SQL Developer: [download](https://www.oracle.com/tools/downloads/sqldev-v192-downloads.html)
+Oracle 11g: [download](https://www.oracle.com/database/technologies/112010-win64soft.html)
 
 ## 2. schema creation:
 To create all structure of the database you need to execute files stored in /schema folder.
