@@ -14,7 +14,7 @@ Database model:
 
 Entity relationship diagram:
 <p align="center">
-  <img src="images/databaseModel.png" />
+  <img src="images/entityRelationship.png" />
 </p>
 
 # Getting started
