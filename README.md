@@ -17,6 +17,11 @@ Entity relationship diagram:
   <img src="images/entityRelationship.png" />
 </p>
 
+# Documentation
+We created raport describing all functionalities implemented in the project:
+* Views: **doc_1.pdf**
+* Standalone procedures, data consistency and physical parameters calculation: **doc_2.pdf**
+
 # Getting started
 
 ## 1. database setup:
@@ -26,25 +31,21 @@ Oracle 11g: [download](https://www.oracle.com/database/technologies/112010-win64
 
 ## 2. schema creation:
 To create all structure of the database you need to execute files stored in /schema folder. 
-```
 **schema.sql**
-```
+
 
 ## 3. package creation
 To provide core of logical functionality of the whole system you need to create packages by executing files in /packages.  
-```
 **packages.sql**  
 **packages'Body.sql**
-```
+
 
 ## 4. data consistency
 After whole setup data consistency mechanisms such as triggers are needed to be included into system. Execute files from /consistency. 
-```
 **triggers.sql**  
-```
+
 
 ## 5. standalone routines
 In project there are provided various functionalities adjusted to client's needs such as obtaining specified information, adding new games, paying won bets or recalculating odds initially.  
-```
 **routines.sql**
-```
+
