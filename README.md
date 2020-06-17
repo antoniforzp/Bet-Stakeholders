@@ -30,22 +30,22 @@ SQL Developer: [download](https://www.oracle.com/tools/downloads/sqldev-v192-dow
 Oracle 11g: [download](https://www.oracle.com/database/technologies/112010-win64soft.html)
 
 ## 2. schema creation:
-To create all structure of the database you need to execute files stored in /schema folder. 
+To create all structure of the database you need to execute files stored in /schema folder.  
 [**schema.sql**](schema/schema.sql)
 
 
 ## 3. package creation
 To provide core of logical functionality of the whole system you need to create packages by executing files in /packages.  
-[**packages.sql**](packages/packages.sql)
+[**packages.sql**](packages/packages.sql)  
 [**packages'Body.sql**](packages/packages'Body.sql)
 
 
 ## 4. data consistency
-After whole setup data consistency mechanisms such as triggers are needed to be included into system. Execute files from /consistency.  
+After whole setup data consistency mechanisms such as triggers are needed to be included into system. Execute files from /consistency.   
 [**triggers.sql**](consistency/triggers.sql)
 
 
 ## 5. standalone routines
-In project there are provided various functionalities adjusted to client's needs such as obtaining specified information, adding new games, paying won bets or recalculating odds initially. Script is places in folder /routines.
+In project there are provided various functionalities adjusted to client's needs such as obtaining specified information, adding new games, paying won bets or recalculating odds initially. Script is places in folder /routines.  
 [**routines.sql**](routines/routines.sql)
 
