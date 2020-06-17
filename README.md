@@ -30,12 +30,16 @@ To create all structure of the database you need to execute files stored in /sch
 
 ## 3. package creation
 To provide core of logical functionality of the whole system you need to create packages by executing files in /packages.  
-**packages.sql**
+**packages.sql**  
 **packages'Body.sql**
 
 ## 4. data consistency
-After whole setup data consistency mechanisms such as triggers are needed to be included into system. Execute files from /dataConsist
-<nazwy plików>
+After whole setup data consistency mechanisms such as triggers are needed to be included into system. Execute files from /consistency.  
+**triggers.sql**  
+
+## 5. standalone routines
+In project there are provided various functionalities adjusted to client's needs such as obtaining specified information, adding new games, paying won bets or recalculating odds initially.  
+**routines.sql**
 
 ## 5. population:
 To populate database with initial records there is necessity to execute files stored in /population folder.
