@@ -6,5 +6,30 @@ Database is imitation of database for stakeholders company which collects bets o
 
 Authors: Antoni Forzpańczyk and Jędrzej Szor
 
-##Schema structure
-<dać model bazy danych>
+## Schema structure
+Main menu:
+<p align="center">
+  <img src="images/mainView.png" />
+</p>
+
+# Getting started
+
+## 1. database setup:
+To ensure consistency of database workflow we suggest Oracle 11g database
+<link>
+
+## 2. schema creation:
+To create all structure of the database you need to execute files stored in /schema folder.
+<nazwy plików>
+
+## 3. population:
+To populate database with initial records there is necessity to execute files stored in /population folder.
+<nazwy plików i kolejność>
+
+## 4. package creation
+To provide core of logical functionality of the whole system you need to create packages by executing files in /packages.
+<nazwy plików>
+
+## 5. data consistency
+After whole setup data consistency mechanisms such as triggers are needed to be included into system. Execute files from /dataConsist
+<nazwy plików>
