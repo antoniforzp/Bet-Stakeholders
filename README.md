@@ -29,8 +29,9 @@ To create all structure of the database you need to execute files stored in /sch
 **schema.sql**
 
 ## 3. package creation
-To provide core of logical functionality of the whole system you need to create packages by executing files in /packages.
-<nazwy plików>
+To provide core of logical functionality of the whole system you need to create packages by executing files in /packages.  
+**packages.sql**
+**packages'Body.sql**
 
 ## 4. data consistency
 After whole setup data consistency mechanisms such as triggers are needed to be included into system. Execute files from /dataConsist
