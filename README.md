@@ -7,7 +7,10 @@ Database is imitation of database for stakeholders company which collects bets o
 Authors: Antoni Forzpańczyk and Jędrzej Szor
 
 ## Schema structure
-<dać model bazy danych>
+Main menu:
+<p align="center">
+  <img src="images/mainView.png" />
+</p>
 
 # Getting started
 
