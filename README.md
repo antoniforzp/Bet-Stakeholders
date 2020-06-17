@@ -7,9 +7,14 @@ Database is imitation of database for stakeholders company which collects bets o
 Authors: Antoni Forzpańczyk and Jędrzej Szor
 
 ## Schema structure
-Main menu:
+Database model:
 <p align="center">
-  <img src="images/mainView.png" />
+  <img src="images/databaseModel.png" />
+</p>
+
+Entity relationship diagram:
+<p align="center">
+  <img src="images/databaseModel.png" />
 </p>
 
 # Getting started
